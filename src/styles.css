@@ -1,1 +1,285 @@
+.button.x {
+  padding: 1em;
+  font-size: 1em;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  font-weight: 700;
+}
+
+.button.x:hover {
+  background-color: #333;
+}
+
+.button.y {
+  padding: 1em;
+  font-size: 1em;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  border: none;
+  font-weight: 700;
+
+}
+
+.button.y:hover {
+  background-color: #9c9c9c;
+}
+
+.calltoaction {
+  padding: 5em 1em;
+  font-size: 1.2em;
+}
+
+@media (max-width: 480px) {
+  .button.x {
+    max-width: 100%;
+  }
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 400% 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}
+
 /* You can add global styles to this file, and also import other style files */
+/* L'intera scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* La parte della scrollbar che scorre */
+::-webkit-scrollbar-thumb {
+ 
+  border-radius: 5px;
+  background: black
+
+}
+
+/* La parte della scrollbar che contiene il thumb */
+::-webkit-scrollbar-track {
+  background: rgb(82, 82, 82);
+  /* border-radius: 10px; */
+}
+
+/* Hover su scrollbar thumb */
+::-webkit-scrollbar-thumb:hover {
+  background: #cccccc;
+}
+
+body {
+  font-family: "Michroma", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  overflow-x: hidden;
+  padding-top: 79px;
+  margin: 0;
+}
+
+.divuno {
+  min-height: calc(100vh - 79px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gruppo-regular {
+  font-family: "Gruppo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.syncopate-regular {
+  font-family: "Syncopate", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.syncopate-bold {
+  font-family: "Syncopate", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.michroma-regular {
+  font-family: "Michroma", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.active {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.animation {
+  transform: translateX(400%);
+  transition: transform 0.4s ease;
+}
+
+.animatiom:nth-of-type(even) {
+  transform: translateX(-400%);
+}
+
+.animation.show {
+  transform: translateX(0);
+}
+
+.banner {
+  width: 100%;
+ 
+  /* border: 1px solid black; */
+}
+.banner2 {
+  width: 100%;
+  border-radius: 30px;
+  overflow: hidden;
+  /* border: 1px solid black; */
+}
+.banner img {
+  max-width: 100%;
+}
+.banner2 img {
+  max-width: 100%;
+}
+.box-cop {
+  background-color: black;
+  color: white;
+  padding: 2em;
+  min-height: calc(100vh - 79px);
+  background-image: url("/assets/sfondositiwebpagina.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+
+}
+
+.box-cop::before {
+  margin-top: 80px;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: calc(100vh - 79px);
+  background: rgba(0, 0, 0, 0.6); 
+  z-index: 0; 
+}
+
+.box-cop div {
+  z-index: 1;
+}
+
+.box-cop div h1 {
+  margin: 0;
+  padding: 0;
+  font-size: calc(
+    2em + 1vw
+  ); 
+}
+
+.box-cop div p {
+  font-size: calc(
+    1em + 0.5vw
+  );
+  margin: 0;
+  padding: 0;
+}
+
+
+
+@media (min-width: 768px) {
+  .box-cop {
+    
+    align-items: center;
+    text-align: center;
+    
+  }
+
+  .box-cop div {
+    display: flex;
+    align-items: center;
+   
+    justify-content: center;
+    flex-direction: column;
+  }
+  .box-cop div h1 {
+    font-size: calc(3em + 1vw);
+  }
+
+  .box-cop div p {
+    font-size: calc(1.2em + 0.5vw);
+    
+   
+  }
+}
+
+@media (min-width: 1024px) {
+  .box-cop div h1 {
+    font-size: calc(4em + 1vw);
+  }
+
+  .box-cop div p {
+    font-size: calc(1.4em + 0.5vw);
+    width: 70%; 
+  }
+}
+
+
+.button {
+  font-size: calc(
+    1em + 0.5vw
+  ); 
+  padding: calc(0.5em + 0.5vw) calc(1em + 1vw); 
+}
+
+.no-scroll {
+  overflow: hidden;
+  min-height: calc(100vh - 79px);
+}
+
+.magicolor{
+  background: linear-gradient(45deg,  #f0f,yellow,#0ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+
+
+@media screen and (max-width:767px) {
+  .containergrid {
+    display: grid;
+    grid-template-areas:
+      "biglietti biglietti"
+      "tshirt tshirt"
+      "tazze tazze"
+      "diario diario"
+      "brochure brochure";
+    
+  }
+
+  
+  
+}
+
+
+
+

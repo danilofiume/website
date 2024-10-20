@@ -1,0 +1,404 @@
+ul {
+  list-style: none;
+}
+
+.spinner-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  z-index: 1000;
+}
+
+.spinner {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #000000; /* Blue */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loader {
+  width: 0;
+  height: 4.8px;
+  display: inline-block;
+  position: relative;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  box-sizing: border-box;
+  animation: animFw 8s linear infinite;
+}
+
+.loader::after,
+.loader::before {
+  content: "";
+  width: 10px;
+  height: 1px;
+  background: #fff;
+  position: absolute;
+  top: 9px;
+  right: -2px;
+  opacity: 0;
+  transform: rotate(-45deg) translateX(0px);
+  box-sizing: border-box;
+  animation: coli1 0.3s linear infinite;
+}
+
+.loader::before {
+  top: -4px;
+  transform: rotate(45deg);
+  animation: coli2 0.3s linear infinite;
+}
+
+@keyframes animFw {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes coli1 {
+  0% {
+    transform: rotate(-45deg) translateX(0px);
+    opacity: 0.7;
+  }
+
+  100% {
+    transform: rotate(-45deg) translateX(-45px);
+    opacity: 0;
+  }
+}
+
+@keyframes coli2 {
+  0% {
+    transform: rotate(45deg) translateX(0px);
+    opacity: 1;
+  }
+
+  100% {
+    transform: rotate(45deg) translateX(-45px);
+    opacity: 0.7;
+  }
+}
+
+i:hover {
+  color: #999999;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.container3 {
+  width: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box; /* Assicura che padding e border siano inclusi nella larghezza e altezza */
+}
+
+header {
+  background-color: rgb(255, 255, 255);
+  transition: top 0.3s;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1000; /* Ensure the header is above other content */
+}
+/* .hidden-header {
+  transition: top 0.3s;
+  top: -100px; 
+  position: fixed;
+  width: 100%;
+} */
+
+.nav {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  z-index: 100;
+}
+
+.submenuli {
+  color: white;
+}
+
+.nav li {
+  padding: 10px;
+  font-size: 1em;
+  margin: 0;
+  border-bottom: 2px solid transparent;
+  text-decoration: none;
+  color: black;
+  /* font-weight: 550; */
+  cursor: pointer;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.nav li:hover {
+  color: #4a4a4a;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.active {
+  border-bottom: 2px solid black;
+}
+.nav li ul {
+  background-color: transparent;
+  position: absolute;
+  top: 40px;
+  left: 0;
+}
+
+.nav li ul li ul {
+  /* background-color: rgb(255, 255, 255); */
+  position: static;
+  top: 0;
+  left: 250px;
+}
+
+#hamburgerMenu {
+  display: none;
+  cursor: pointer;
+}
+
+.sidebar {
+  display: none;
+  height: 100vh;
+  z-index: 10000;
+}
+
+.block {
+  display: block;
+}
+
+#iconMenu {
+  display: none;
+}
+
+.viewlogo {
+  margin-top: 5em;
+  display: none;
+}
+
+.icon {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.icon li {
+  margin-right: 1em;
+  font-size: 12px;
+}
+
+.icon li:hover {
+  color: rgb(171, 171, 171);
+  cursor: pointer;
+}
+
+i {
+  font-size: 1.8em;
+}
+
+.nav2 li {
+  cursor: pointer;
+}
+
+.nav2 li ul {
+  padding-top: 1em;
+  font-size: 16px;
+}
+
+.nav li ul {
+  padding-top: 1em;
+  font-size: 14px;
+}
+
+footer {
+  width: 100%;
+  background-color: #000000;
+  padding: 1.5em;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.whatsapp-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  background-color: #25d366;
+  color: #fff;
+  padding: 20px;
+  width: 50px; /* Larghezza uguale all'altezza per un cerchio perfetto */
+  height: 50px; /* Altezza uguale alla larghezza per un cerchio perfetto */
+  border-radius: 50%; /* Rende l'icona circolare */
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease; /* Transizione per il cambio di colore */
+}
+
+.whatsapp-icon:hover {
+  background-color: #128c7e;
+}
+.fa-whatsapp:hover {
+  color: white;
+}
+@media screen and (max-width: 720px) {
+  .sidebar {
+    right: -100%;
+    width: 100%;
+    font-size: 1.5em;
+  }
+
+  .sidebar.active {
+    right: 0;
+    width: 100%;
+  }
+  .viewlogo {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1090px) {
+  .nav {
+    display: none;
+  }
+
+  .sidebar {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: -50%;
+    width: 50%;
+    height: 100%;
+    background-color: #000000;
+    transition: all 0.7s ease;
+    z-index: 100;
+    color: white;
+    overflow-y: auto;
+  }
+
+  .sidebar.active {
+    right: 0;
+  }
+
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .sidebar ul li {
+    padding: 15px;
+  }
+
+  #iconMenu {
+    float: right;
+    display: block;
+  }
+
+  #hamburgerMenu {
+    display: block;
+    cursor: pointer;
+  }
+
+  .index {
+    display: block;
+    cursor: pointer;
+    z-index: 100;
+  }
+  .viewlogo {
+    display: none;
+  }
+}
+
+.cookie-popup {
+  position: fixed;
+  top: -100px; /* Parte dall'esterno della vista */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 300px; /* Riduciamo la larghezza */
+  background-color: rgba(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  transition: opacity 0.5s ease, top 0.5s ease; /* Transizione fluida */
+  z-index: 9999;
+}
+
+.show-popup {
+  top: 100px; /* Posizione finale del popup */
+  opacity: 1; /* Rende visibile il popup */
+}
+
+.hide-popup {
+  top: -100px; /* Si sposta fuori dalla vista in alto */
+  opacity: 0; /* Gradualmente si nasconde */
+}
+
+.cookie-content h2 {
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+.cookie-content p {
+  margin-bottom: 15px;
+  font-size: 11px;
+}
+
+.cookie-content .buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cookie-content button {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.cookie-content button:hover {
+  background-color: gray;
+  color: white;
+}
+
+.cookie-content a {
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+  font-size: 12px;
+}

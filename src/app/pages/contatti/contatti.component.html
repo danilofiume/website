@@ -1,0 +1,76 @@
+<div class="box-contatti py-5" #primodiv>
+  <div class="container">
+    <div class="row ">
+   
+      <div class="col-12 col-md-6 d-flex flex-column align-items-start primodiv" #primodiv>
+        <h2 class="marginemobile magicolor">CONTATTACI</h2>
+        <p class="">
+          Siamo qui per aiutarti! Per qualsiasi domanda, richiesta di informazioni o supporto, non esitare a contattarci utilizzando uno dei seguenti metodi:
+        </p>
+        <ul class="list-unstyled ">
+        <a href="tel:+393735051196"><li class="d-flex justify-content-start align-items-center mb-2" style="color: white;">
+          <strong><i class="fa-solid fa-phone me-3"></i></strong > 3735051196
+        </li></a>
+        <a href="mailto:dandev.info@gmail.com"> 
+          <li class="d-flex justify-content-start align-items-center" style="color: white;">
+            <strong><i class="fa-solid fa-envelope me-3"></i></strong> dandev.info&#64;gmail.com
+          </li>
+        </a>
+          
+        </ul>
+      
+        <h2 class=" mt-5 mb-3 magicolor">SEGUICI SUI SOCIAL</h2>
+        <div class="d-flex justify-content-center">
+          <a href="https://www.facebook.com/profile.php?id=61560610781697" class="me-4 text-white"><i class="fa-brands fa-facebook fa-2x"></i></a>
+          <a href="https://www.instagram.com/dandevwebsolutions?igsh=MXdrY3F1ZGRvNm1yeA%3D%3D&utm_source=qr" class="me-4 text-white"><i class="fa-brands fa-instagram fa-2x"></i></a>
+          <a href="https://www.tiktok.com/@dandevwebsolutions?_t=8nuldelOnj6&_r=1" class="text-white"><i class="fa-brands fa-tiktok fa-2x"></i></a>
+        </div>
+      </div>
+      
+      
+      
+      <div *ngIf="isFormVisible" class="col-12 col-md-6 modulo-contatti secondodiv" #secondodiv>
+        <h2 class="magicolor">MODULO DI CONTATTO</h2>
+        <p>Puoi anche utilizzare il modulo di contatto sottostante per inviarci un messaggio diretto. Risponderemo il prima possibile!</p>
+        <div class="form-container">
+          <form action="https://formspree.io/f/xqazkzbj"
+          method="POST" class="form">
+            <div class="form-group">
+              <label for="email">EMAIL</label>
+              <input type="text" id="email" name="email" required="">
+            </div>
+            <div class="form-group">
+              <label for="textarea">SCRIVI IL TUO MESSAGGIO</label>
+              <textarea name="textarea" id="textarea" rows="10" cols="50" required=""></textarea>
+            </div>
+            <button class="form-submit-btn" type="submit">INVIA</button>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+ 
+</div>
+
+<div class="container calltoaction">
+  <div class="row d-flex justify-content-center align-items-center">
+    <div class="col-12 col-md-6 text-center">
+      <h1>PRONTO PER INIZIARE?</h1>
+    </div>
+    <div
+      class="col-12 col-md-6 text-center d-flex justify-content-center align-items-center flex-column"
+    >
+      <p>
+        Contattaci oggi stesso per una consulenza gratuita e scopri come
+        possiamo aiutarti a crescere online.
+      </p>
+      <a
+        href="https://wa.me/3735051196?text=Ciao, ti contatto per sapere ulteriori informazioni!"
+        ><button class="button x mt-3">CONTATTACI</button></a
+      >
+    </div>
+  </div>
+</div>
+
+

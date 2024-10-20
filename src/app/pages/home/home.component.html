@@ -1,0 +1,366 @@
+<!-- copertina -->
+<!-- <div class="container divuno">
+  <div class="row ">
+    <div class="col-12 col-md-6 " #imgcopertina>
+      <div class="banner">
+        <img src="assets/primaimg.png" alt="" />
+      </div>
+    </div>
+    <div
+      class="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center"
+      #titolo
+    >
+      <h4 class="text-center titolo font" >
+        HAI BISOGNO DI UN SITO WEB, GESTIONE SOCIAL MEDIA O BRANDING ONLINE?
+      </h4>
+
+      <a
+        href="https://wa.me/3735051196?text=Ciao, ti contatto per sapere ulteriori informazioni!"
+        ><button class="button x mt-3">INIZIA ORA</button></a
+      >
+    </div>
+    
+    
+  </div>
+</div> -->
+
+<!-- <div class="box-cop">
+  <div>
+    
+    <h1 class="mb-4 magicolor" #titolo>SVILUPPO WEB</h1>
+    <h1 class="mb-4 magicolor" #titolo2>GESTIONE SOCIAL MEDIA</h1>
+    <h1 class="mb-4 magicolor" #titolo3>BRANDING ONLINE</h1>
+    <a #pulsante
+        href="https://wa.me/3735051196?text=Ciao, ti contatto per sapere ulteriori informazioni!"
+        ><button class="button x mt-3 magicolorbutton ">INIZIA ORA</button></a
+      >
+    
+  </div>
+</div> -->
+
+<!-- carosello immagini -->
+<div
+  id="carouselExampleCaptions"
+  class="carousel slide mb-5 banner"
+  data-bs-ride="carousel"
+  data-bs-interval="4000"
+  style="min-height: calc(100vh - 79px);"
+  
+>
+  <div class="carousel-indicators">
+    <button
+      type="button"
+      data-bs-target="#carouselExampleCaptions"
+      data-bs-slide-to="0"
+      class="active"
+      aria-current="true"
+      aria-label="Slide 1"
+    ></button>
+    <button
+      type="button"
+      data-bs-target="#carouselExampleCaptions"
+      data-bs-slide-to="1"
+      aria-label="Slide 2"
+    ></button>
+    <button
+      type="button"
+      data-bs-target="#carouselExampleCaptions"
+      data-bs-slide-to="2"
+      aria-label="Slide 3"
+    ></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" routerLink="/sitiweb">
+      <img src="assets/sfondositiwebpagina.jpg" class="d-block w-100" alt="..." />
+      <div class="carousel-caption p-2">
+        <h1 class="carousel-title">SVILUPPO WEB</h1>
+        <p class="carousel-p px-4">Hai bisogno di un sito web?</p>
+       <button class="button y mt-2" routerLink="/sitiweb">INIZIA ORA</button>
+      
+      </div>
+      
+    </div>
+    <div class="carousel-item" routerLink="/socialmedia">
+      <img src="assets/sfondosocial.jpg" class="d-block w-100" alt="..." />
+      <div class="carousel-caption p-2">
+        <h1 class="carousel-title">GESTIONE SOCIAL MEDIA</h1>
+        <p class="carousel-p px-4">Non sai come creare e gestire i tuoi contenuti?</p>
+        <button class="button y mt-2" routerLink="/socialmedia">INIZIA ORA</button>
+      </div>
+    </div>
+    <div class="carousel-item" routerLink="/idenditàdigitale">
+      <img src="assets/sfondobranding.jpg" class="d-block w-100" alt="..." />
+      <div class="carousel-caption p-2">
+        <h1 class="carousel-title">BRANDING ONLINE</h1>
+        <p class="carousel-p px-4">Hai bisogno di un logo per la tua attività?</p>
+        <button class="button y mt-2" routerLink="/digitalidendity">INIZIA ORA</button>
+      </div>
+    </div>
+  </div>
+  <button
+    class="carousel-control-prev"
+    type="button"
+    data-bs-target="#carouselExampleCaptions"
+    data-bs-slide="prev"
+  >
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button
+    class="carousel-control-next"
+    type="button"
+    data-bs-target="#carouselExampleCaptions"
+    data-bs-slide="next"
+  >
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- benvenuti -->
+<div class="container" #divbenvenuto>
+  <div class="row d-flex justify-content-center align-items-center">
+    <div class="col-12 col-md-6 text-center" #benvenutitext>
+      <!-- <h5>
+        Benvenuti su <strong>Dandev Web Solutions</strong>, il partner ideale
+        per portare la vostra azienda nel mondo digitale.
+        
+      </h5>
+      <h5 class="mt-3">
+        Offriamo servizi di sviluppo siti web, gestione dei social media e
+        creazione di identità digitale per aiutare il vostro brand a crescere e
+        prosperare online.
+      </h5>
+      <h5 class="mt-3">
+        Esplorate i nostri servizi e scoprite come possiamo aiutarvi a
+        raggiungere i vostri obiettivi digitali.
+      </h5> -->
+      <p> Benvenuti su <strong>Dandev Web Solutions</strong>, il partner ideale
+        per portare la vostra azienda nel mondo digitale.
+        Esplorate i nostri servizi e scoprite come possiamo aiutarvi a
+        raggiungere i vostri obiettivi digitali.
+        Offriamo servizi di sviluppo siti web, gestione dei social media e
+        creazione di identità digitale per aiutare il vostro brand a crescere e
+        prosperare online.</p>
+    </div>
+    <div class="col-12 col-md-6" #benvenutiimg>
+      <div class="banner">
+        <img src="assets/dandevmonitor.png" alt="" />
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="barraservizi row mt-5" #barraservizi>
+  <div
+    class="col-12 text-center barraservizimargin col-md-4 d-flex justify-content-center align-items-center flex-column"
+    
+    #servizio1
+  >
+    <h2><i class="fa-solid fa-laptop-code magicolor"></i></h2>
+    <h3 class="magicolor">Sviluppo Siti Web</h3>
+  </div>
+
+  <div
+    class="col-12 text-center barraservizimargin col-md-4 d-flex justify-content-center align-items-center flex-column"
+    
+    #servizio2
+  >
+    <h2><i class="fas fa-thumbs-up magicolor"></i></h2>
+    <h3 class="magicolor">Gestione Social Media</h3>
+  </div>
+
+  <div
+    class="col-12 text-center col-md-4 d-flex justify-content-center align-items-center flex-column"
+    
+    #servizio3
+  >
+    <h2><i class="magicolor fas fa-bullhorn"></i></h2>
+    <h3 class="magicolor">Branding Online</h3>
+  </div>
+</div>
+
+<!-- pacchetti offerte e perche sceglierci -->
+<div class="container">
+  <div class="row d-flex justify-content-center align-items-stretch my-5">
+    <h1 class="my-5">I NOSTRI PACCHETTI</h1>
+    <div class="col-12 col-xl-4 mb-3">
+      <div class="cards__inner h-100">
+        <div class="cards__card card d-flex flex-column">
+          <p class="card__heading">Sarter</p>
+          <!-- <p class="card__price"><i class="fa-solid fa-euro-sign"></i> 1000</p> -->
+          <p>
+            Ideale per piccole imprese o startup che desiderano una presenza
+            online professionale.
+          </p>
+          <ul class="card_bullets flow" role="list">
+            <li>Sito web fino a 5 pagine</li>
+            <li>Gestione Social Media</li>
+            <li>4 post al mese con grafiche personalizzate</li>
+            <li>Creazione di logo aziendale</li>
+          </ul>
+          <a
+            class="card__cta cta mt-auto w-100"
+            href="https://wa.me/3735051196?text=Ciao, ti contatto per sapere ulteriori informazioni riguardo il pacchetto STARTER!"
+            >Contattaci</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-xl-4 mb-3">
+      <div class="cards__inner h-100">
+        <div class="cards__card card d-flex flex-column">
+          <p class="card__heading">Professional</p>
+          <!-- <p class="card__price"><i class="fa-solid fa-euro-sign"></i> 2000</p> -->
+          <p>
+            Perfetto per aziende in crescita che desiderano migliorare la loro
+            presenza online e l'interazione con i clienti.
+          </p>
+          <ul class="card_bullets flow" role="list">
+            <li>Sito web fino a 10 pagine</li>
+            <li>Gestione Social Media</li>
+            <li>8 post al mese con grafiche e contenuti personalizzati</li>
+            <li>Creazione di Logo e linee guida per il brand</li>
+          </ul>
+          <a
+            class="card__cta cta mt-auto w-100"
+            href="https://wa.me/3735051196?text=Ciao, ti contatto per sapere ulteriori informazioni riguardo il pacchetto PROFESSIONAL!"
+            >Contattaci</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-xl-4 mb-3">
+      <div class="cards__inner h-100">
+        <div class="cards__card card d-flex flex-column">
+          <p class="card__heading">Premium</p>
+          <!-- <p class="card__price"><i class="fa-solid fa-euro-sign"></i> 4000</p> -->
+          <p>
+            Ideale per aziende affermate che vogliono una presenza online di
+            alto livello e una strategia di marketing digitale completa.
+          </p>
+          <ul class="card_bullets flow" role="list">
+            <li>Sito web illimitato - E-Commerce</li>
+            <li>Gestione Social Media</li>
+            <li>
+              15 post al mese con grafiche, contenuti personalizzati e video
+            </li>
+            <li>Brand storytelling e sviluppo della strategia di branding</li>
+          </ul>
+          <a
+            class="card__cta cta mt-auto w-100"
+            href="https://wa.me/3735051196?text=Ciao, ti contatto per sapere ulteriori informazioni riguardo il pacchetto PREMIUM!"
+            >Contattaci</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+  <div #barraperchesceglierci
+    class="row d-flex justify-content-center align-items-stretch my-5 vantaggi"
+  >
+    <h1 class="my-4" #titoloperchesceglierci>PERCHÈ SCEGLIERCI?</h1>
+    <div #passionecompetenza
+      class="mt-1 row d-flex justify-content-center align-items-center text-center figli"
+    >
+      <div class="col-12 col-md-6 order-2">
+        <h3 class="mb-3">PASSIONE E COMPETENZA</h3>
+        <p>
+          Con passione e anni di studio nel settore digitale, offriamo
+          competenze avanzate per creare soluzioni innovative ed efficaci.
+        </p>
+      </div>
+
+      <div class="col-12 col-md-6 order-1">
+        <div class="banner">
+          <img src="assets/esperienze.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div #approcciopersonalizzato
+      class="row d-flex justify-content-center align-items-center text-center figli"
+    >
+      <div class="col-12 col-md-6 order-1 order-md-2">
+        <div class="banner">
+          <img src="assets/approcciopersonalizzato.png" alt="" />
+        </div>
+      </div>
+      <div class="col-12 col-md-6 order-2 order-md-1">
+        <h3 class="mb-3">APPROCCIO PERSONALIZZATO</h3>
+        <p>
+          Lavoriamo a stretto contatto con i nostri clienti per capire le loro
+          esigenze specifiche e fornire soluzioni su misura.
+        </p>
+      </div>
+    </div>
+
+    <div #risultatitangibili
+      class="row d-flex justify-content-center align-items-center text-center figli mb-0"
+    >
+      <div class="col-12 col-md-6 order-2">
+        <h3 class="mb-3">RISULTATI TANGIBILI</h3>
+        <p>
+          Puntiamo a fornire risultati misurabili che migliorano la visibilità e
+          la crescita del tuo business online.
+        </p>
+      </div>
+
+      <div class="col-12 col-md-6 order-1">
+        <div class="banner">
+          <img src="assets/risultati.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!--chi siamo  -->
+<div class="chisiamo mt-5">
+  <div class="container text-center">
+    <div class="row">
+      <div
+        class="col-12 col-md-6 d-flex justify-content-center align-items-center flex-column order-1 order-md-2"
+      >
+        <img src="assets/competenze.png" alt="" style="max-width: 100%" />
+      </div>
+
+      <div
+        class="col-12 col-md-6 d-flex justify-content-center align-items-center flex-column order-2 order-md-1 mt-4"
+      >
+        <h1 class="mb-3 magicolor">CHI SIAMO?</h1>
+        <p class="m-0 p-0">
+          Danilo Fiume, fondatore di Dandev Web Solutions, è un appassionato di
+          tecnologia con competenze acquisite tramite studi ed esperienza.
+        </p>
+        <p class="mt-3 p-0">
+          Trasforma le idee dei clienti in soluzioni digitali personalizzate,
+          garantendo professionalità e dedizione.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Call to Action Finale -->
+
+<div class="container calltoaction">
+  <div class="row d-flex justify-content-center align-items-center">
+    <div class="col-12 col-md-6 text-center">
+      <h1>PRONTO PER INIZIARE?</h1>
+    </div>
+    <div
+      class="col-12 col-md-6 text-center d-flex justify-content-center align-items-center flex-column"
+    >
+      <p>
+        Contattaci oggi stesso per una consulenza gratuita e scopri come
+        possiamo aiutarti a crescere online.
+      </p>
+      <a
+        href="https://wa.me/3735051196?text=Ciao, ti contatto per sapere ulteriori informazioni!"
+        ><button class="button x mt-3">CONTATTACI</button></a
+      >
+    </div>
+  </div>
+</div>

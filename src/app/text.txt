@@ -1,0 +1,235 @@
+Home Page
+Hero Section
+Titolo: Danev Web Solutions - Innovazione digitale al tuo servizio
+Descrizione: Siamo specializzati nello sviluppo di siti web, gestione dei social media e branding online. Il nostro obiettivo è aiutare le aziende a crescere nel mondo digitale attraverso soluzioni innovative e personalizzate.
+Call to Action: Scopri di più sui nostri servizi
+
+Servizi Principali
+Sviluppo Siti Web
+
+Descrizione: Creiamo siti web responsive, user-friendly e ottimizzati per i motori di ricerca. La tua presenza online inizierà con un sito web che non solo attrae visitatori, ma li converte in clienti.
+Call to Action: Approfondisci
+Gestione Social Media
+
+Descrizione: Gestiamo la tua presenza sui social media con strategie mirate per aumentare la visibilità e l'interazione. Dalla creazione di contenuti alla pianificazione delle pubblicazioni, ci occupiamo di tutto.
+Call to Action: Approfondisci
+Branding Online
+
+Descrizione: Costruiamo e rafforziamo il tuo marchio online con soluzioni di branding personalizzate. Dal logo all'identità visiva, sviluppiamo una strategia completa per distinguerti dalla concorrenza.
+Call to Action: Approfondisci
+Vantaggi di Scegliere Noi
+Esperienza e Competenza
+
+Con anni di esperienza nel settore digitale, offriamo competenze avanzate per creare soluzioni innovative e efficaci.
+Approccio Personalizzato
+
+Lavoriamo a stretto contatto con i nostri clienti per capire le loro esigenze specifiche e fornire soluzioni su misura.
+Risultati Tangibili
+
+Puntiamo a fornire risultati misurabili che migliorano la visibilità e la crescita del tuo business online.
+
+Chi Siamo
+Descrizione: Dietro Danev Web Solutions ci sono io, Danilo Fiume, un appassionato di tecnologia e innovazione digitale. Questo progetto nasce da una forte passione per il mondo digitale e dalla voglia di creare soluzioni uniche e personalizzate per ogni cliente. Con una vasta gamma di competenze, mi impegno a trasformare le tue idee in realtà, garantendo professionalità e dedizione in ogni progetto.
+
+Call to Action Finale
+Titolo: Pronto per iniziare?
+Descrizione: Contattaci oggi stesso per una consulenza gratuita e scopri come possiamo aiutarti a crescere online.
+Call to Action: Richiedi una consulenza
+
+
+
+
+
+Pagina Servizi
+
+Sviluppo Siti Web
+Siti Web Responsive e SEO Ottimizzati
+
+Creiamo siti web che non solo hanno un design accattivante ma sono anche ottimizzati per i motori di ricerca. Ogni sito è progettato per offrire la migliore esperienza utente su qualsiasi dispositivo.
+E-commerce
+
+Sviluppiamo negozi online che aiutano il tuo business a vendere di più. Soluzioni e-commerce sicure, facili da gestire e scalabili.
+CMS Personalizzati
+
+Implementiamo sistemi di gestione dei contenuti che permettono una facile gestione del tuo sito web. Puoi aggiornare e modificare i contenuti senza necessità di conoscenze tecniche avanzate.
+Ottimizzazione per i Motori di Ricerca (SEO)
+
+La nostra ottimizzazione SEO garantisce che il tuo sito web sia visibile nei risultati di ricerca, attirando più visitatori e potenziali clienti.
+
+
+
+Gestione Social Media
+Creazione e Gestione di Contenuti
+
+Produciamo contenuti di alta qualità che riflettono la tua marca e coinvolgono il tuo pubblico. Dalla scrittura alla grafica, ogni contenuto è creato per catturare l'attenzione.
+Campagne Pubblicitarie sui Social
+
+Gestiamo campagne pubblicitarie mirate per aumentare la tua visibilità e raggiungere il pubblico giusto. Monitoriamo e ottimizziamo continuamente le performance delle campagne.
+Analisi e Reportistica
+
+Forniamo analisi dettagliate e report mensili per mostrarti i risultati delle nostre strategie. Ti aiutiamo a comprendere cosa funziona meglio per il tuo business.
+
+
+
+
+Branding Online
+Creazione del Logo
+
+Progettiamo loghi unici che rappresentano l'essenza del tuo brand. Un logo professionale è il primo passo per costruire un'identità visiva forte.
+Strategia di Branding
+
+Sviluppiamo una strategia di branding completa che include il messaggio del brand, i valori e l'identità visiva. Ogni elemento è studiato per creare un'immagine coerente e memorabile.
+Materiale di Marketing
+
+Progettiamo materiale di marketing come brochure, volantini e banner che supportano la tua strategia di branding e promuovono il tuo business.
+
+
+Pagina Chi Siamo
+La Nostra Storia
+Titolo: Danev Web Solutions - La Nostra Storia
+Descrizione: Nata dalla passione per la tecnologia e l'innovazione, Danev Web Solutions è stata fondata per aiutare le aziende a sfruttare il potere del digitale. Con un team di esperti dedicati, ci impegniamo a fornire soluzioni su misura che portano risultati concreti.
+
+Il Nostro Team
+Titolo: Esperti a Tua Disposizione
+Descrizione: Il nostro team è composto da professionisti con anni di esperienza in diversi settori del digitale. Ogni membro porta competenze uniche che contribuiscono al successo dei nostri progetti.
+
+I Nostri Valori
+Titolo: Innovazione, Qualità e Cliente al Centro
+Descrizione: Crediamo nell'innovazione continua, nella qualità del lavoro e nel mettere il cliente al centro di tutto ciò che facciamo. I nostri valori guidano ogni progetto e ogni decisione.
+
+Pagina Contatti
+Modulo di Contatto
+Titolo: Contattaci
+Descrizione: Hai una domanda o vuoi richiedere un preventivo? Compila il modulo qui sotto e ti risponderemo al più presto.
+
+Campi del Modulo: Nome, Email, Messaggio
+Pulsante di Invio: Invia
+Informazioni di Contatto
+Email: info@danevwebsolutions.com
+Telefono: +39 123 456 7890
+
+Blog (Opzionale)
+Articoli
+Titolo: Ultimi Articoli dal Nostro Blog
+
+Tendenze nel Web Design: Scopri le ultime tendenze nel web design e come possono aiutare il tuo sito a distinguersi.
+Migliori Pratiche per la Gestione dei Social Media: Consigli e strategie per gestire efficacemente i tuoi profili social e aumentare l'engagement.
+Strategie di Branding Efficaci: Impara come costruire e rafforzare il tuo brand online con strategie comprovate.
+Sezione FAQ
+Domande Frequenti
+
+Quanto tempo ci vuole per sviluppare un sito web?
+
+Il tempo necessario varia a seconda della complessità del progetto, ma in genere richiede da 4 a 8 settimane.
+Quali social media gestite?
+
+Gestiamo una varietà di piattaforme social tra cui Facebook, Instagram, Twitter, LinkedIn e altri, a seconda delle esigenze del cliente.
+Cosa include il servizio di branding?
+
+Il nostro servizio di branding include la creazione del logo, sviluppo dell'identità visiva, e materiale di marketing come brochure e volantini.
+Footer
+Link alle Pagine Social: Facebook, Instagram, Twitter
+Link Rapidi: Home, Servizi, Chi Siamo, Contatti
+Informazioni di Contatto: Indirizzo, Email, Telefono
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Pagina Sviluppo Siti Web
+Hero Section
+Titolo: Creiamo Siti Web di Successo
+Sottotitolo: Dal design alla SEO, tutto ciò di cui hai bisogno per una presenza online vincente.
+Immagine di sfondo: Un'immagine accattivante di un sito web su diversi dispositivi (desktop, tablet, smartphone).
+Call to Action: Contattaci per un preventivo gratuito
+Sezione 1: I Nostri Servizi di Sviluppo Web
+Siti Web Responsive e SEO Ottimizzati
+
+Descrizione: Creiamo siti web che non solo hanno un design accattivante, ma sono anche ottimizzati per i motori di ricerca. Ogni sito è progettato per offrire la migliore esperienza utente su qualsiasi dispositivo.
+Caratteristiche Principali:
+Design moderno e accattivante
+Ottimizzazione per tutti i dispositivi (desktop, tablet, mobile)
+SEO on-page per migliorare la visibilità sui motori di ricerca
+Call to Action: Scopri di più
+E-commerce
+
+Descrizione: Sviluppiamo negozi online che aiutano il tuo business a vendere di più. Soluzioni e-commerce sicure, facili da gestire e scalabili.
+Caratteristiche Principali:
+Piattaforme di e-commerce sicure
+Gestione facile dei prodotti e degli ordini
+Integrazione con sistemi di pagamento sicuri
+Call to Action: Scopri di più
+CMS Personalizzati
+
+Descrizione: Implementiamo sistemi di gestione dei contenuti che permettono una facile gestione del tuo sito web. Puoi aggiornare e modificare i contenuti senza necessità di conoscenze tecniche avanzate.
+Caratteristiche Principali:
+Facilità d'uso
+Flessibilità e scalabilità
+Supporto e formazione inclusi
+Call to Action: Scopri di più
+Sezione 2: Il Nostro Processo di Sviluppo
+Analisi delle Esigenze
+
+Descrizione: Iniziamo con un'analisi approfondita delle tue esigenze e obiettivi. Questo ci permette di capire esattamente cosa ti serve per avere successo online.
+Immagine: Grafico di un brainstorming o un meeting
+Progettazione e Wireframe
+
+Descrizione: Creiamo wireframe e prototipi del tuo sito web per visualizzare la struttura e il design prima di procedere con lo sviluppo.
+Immagine: Esempio di wireframe
+Sviluppo e Implementazione
+
+Descrizione: Utilizziamo le ultime tecnologie e pratiche di sviluppo per costruire il tuo sito web. Ci assicuriamo che ogni sito sia veloce, sicuro e facile da usare.
+Immagine: Codice su schermo
+Testing e QA
+
+Descrizione: Testiamo rigorosamente il sito su diversi dispositivi e browser per assicurarci che tutto funzioni perfettamente.
+Immagine: Persona che testa un sito web
+Lancio e Supporto
+
+Descrizione: Dopo il lancio, forniamo supporto continuo per assicurarti che tutto funzioni correttamente e per implementare eventuali aggiornamenti.
+Immagine: Grafico di un sito web lanciato con successo
+Sezione 3: Portfolio
+Titolo: Progetti Recenti
+Descrizione: Dai un'occhiata ad alcuni dei nostri ultimi progetti e scopri come abbiamo aiutato i nostri clienti a raggiungere i loro obiettivi online.
+Progetti:
+Progetto 1: Nome del progetto, breve descrizione e link al sito
+Progetto 2: Nome del progetto, breve descrizione e link al sito
+Progetto 3: Nome del progetto, breve descrizione e link al sito
+Sezione 4: Testimonianze
+Titolo: Cosa dicono i nostri clienti
+Descrizione: Leggi cosa dicono i nostri clienti sul nostro lavoro e su come li abbiamo aiutati a crescere online.
+Testimonianze:
+Cliente 1: "Danev Web Solutions ha trasformato la nostra presenza online. Il nuovo sito è fantastico!"
+Cliente 2: "Grazie a Danilo e al suo team, le nostre vendite online sono aumentate del 50%."
+Cliente 3: "Il supporto continuo è incredibile. Ogni problema viene risolto rapidamente e con professionalità."
+Sezione 5: FAQ
+Titolo: Domande Frequenti
+Descrizione: Hai delle domande? Ecco alcune delle risposte alle domande più comuni sui nostri servizi di sviluppo web.
+FAQ:
+Quanto tempo ci vuole per sviluppare un sito web?
+Il tempo necessario varia a seconda della complessità del progetto, ma in genere richiede da 4 a 8 settimane.
+Quali tecnologie utilizzate per lo sviluppo?
+Utilizziamo le ultime tecnologie come HTML5, CSS3, JavaScript, Angular, React, e altre.
+Fornite supporto dopo il lancio del sito?
+Sì, offriamo supporto continuo per assicurarci che il tuo sito web funzioni perfettamente e per implementare eventuali aggiornamenti.
+Sezione 6: Call to Action Finale
+Titolo: Pronto per iniziare?
+Descrizione: Contattaci oggi stesso per una consulenza gratuita e scopri come possiamo aiutarti a crescere online.
+Call to Action: Richiedi una consulenza
+Footer
+Link alle Pagine Social: Facebook, Instagram, Twitter
+Link Rapidi: Home, Servizi, Chi Siamo, Contatti
+Informazioni di Contatto: Indirizzo, Email, Telefono
+Questa struttura dovrebbe aiutarti a creare una pagina "Sviluppo Siti Web" più completa e informativa. Assicurati di utilizzare immagini di alta qualità, testi chiari e call to action ben visibili per coinvolgere i visitatori e invitarli a saperne di più sui tuoi servizi.

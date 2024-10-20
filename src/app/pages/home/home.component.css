@@ -1,0 +1,305 @@
+.carousel-control-prev {
+  left: -5%;
+}
+.box-cop {
+  background: black;
+}
+.carousel-control-next {
+  right: -5%;
+}
+
+#carouselExampleCaptions {
+  height: calc(100vh - 79px);
+}
+
+.carousel-item img {
+  height: calc(100vh - 79px);
+  object-fit: cover; /* Assicura che l'immagine copra interamente il contenitore */
+}
+
+.carousel-inner {
+  height: 100%;
+}
+
+.carousel-item {
+  height: 100%;
+}
+
+.moving-div {
+  animation: moveUp 2s infinite alternate;
+}
+
+@keyframes moveUp {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-20px);
+  }
+}
+
+.main__heading {
+  font-weight: 600;
+  font-size: 2.25em;
+  margin-bottom: 0.75em;
+  text-align: center;
+  color: #eceff1;
+}
+
+.cards {
+  position: relative;
+}
+
+.card {
+  --flow-space: 0.5em;
+  --hsl: var(--hue), var(--saturation), var(--lightness);
+  flex: 1 1 14rem;
+  padding: 1.5em 2em;
+  display: grid;
+  grid-template-rows: auto auto auto 1fr;
+  align-items: start;
+  gap: 1.25em;
+  color: #eceff1;
+  background-color: #000000;
+  border: 1px solid rgb(142, 142, 142);
+  border-radius: 15px;
+  height: 100%;
+  cursor: pointer;
+}
+
+.card:nth-child(1) {
+  --hue: 165;
+  --saturation: 82.26%;
+  --lightness: 51.37%;
+}
+
+.card__bullets {
+  line-height: 1.4;
+}
+
+.card__heading {
+  font-size: 1.05em;
+  font-weight: 600;
+}
+
+.card__price {
+  font-size: 1.75em;
+  font-weight: 700;
+}
+
+.flow > * + * {
+  margin-top: var(--flow-space, 1.25em);
+}
+
+.cta {
+  display: block;
+  align-self: end;
+  margin: 1em 0 0.5em 0;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: transparent;
+  outline: 1px solid white;
+  padding: 0.7em;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.card:hover {
+  --lightness: 80%;
+  background: linear-gradient(45deg,  #f0f,yellow,#0ff);
+    color: #000;
+  outline: 1px solid rgb(255, 255, 255);
+ 
+  transition: all ease-in-out 0.3s;
+}
+
+.card:hover > .cta {
+  outline: none;
+  background-color: #0d0d0d;
+}
+
+.calltoaction {
+  padding: 5em 1em;
+  font-size: 1.2em;
+}
+
+.testogrande {
+  font-size: 8em;
+}
+
+@media screen and (max-width: 767px) {
+  .titolo {
+    margin-top: 1.5em;
+  }
+  .testogrande {
+    font-size: 1em;
+  }
+
+  .barraservizimargin {
+    margin-bottom: 4em;
+  }
+
+  .vantaggi .figli {
+    margin-bottom: 4em;
+  }
+
+  .calltoaction {
+    padding: 3em 1em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .font {
+    font-size: 2em;
+  }
+}
+
+.barraservizi {
+  padding: 5em;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.barraservizi i {
+  font-size: 4em;
+  margin-bottom: 0.2em;
+}
+
+.chisiamo {
+  padding: 4em 0;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.vantaggi p {
+  font-size: 1.2em;
+}
+
+.cover {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 79px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  overflow: hidden;
+}
+
+.cover h1 {
+  position: relative;
+  z-index: 10;
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+}
+
+/* Definizione dell'animazione */
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0); /* Posizione iniziale e finale */
+  }
+  50% {
+    transform: translateY(-15px); /* Movimento verso l'alto */
+  }
+}
+
+/* Applicazione dell'animazione all'elemento */
+/* .bounce {
+  animation: bounce 4s ease-in-out infinite; 
+} */
+
+
+.box-cop {
+  background:black;
+}
+
+.magicolor{
+  background: linear-gradient(45deg,  #f0f,yellow,#0ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  /* text-fill-color: transparent; */
+}
+
+.magicolorbutton {
+  background: linear-gradient(45deg,  #f0f,yellow,#0ff);
+  color: black;
+ 
+
+}
+
+
+.magicolorbutton:hover {
+  background: white;
+ 
+
+}
+
+
+
+.title {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
+
+.carousel-item {
+  position: relative;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+  min-height: 100%;
+  color: white; /* Cambia il colore del testo se necessario */
+  background-color: rgba(0, 0, 0, 0.5); 
+  /* padding-top: 10px; */
+  border-radius: 5px; /* Angoli arrotondati opzionali */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.carousel-title {
+  font-size: 2em; /* Regola la dimensione del font */
+}
+
+.carousel-p{
+  font-size: 1em;
+}
+
+@media screen and (min-width:767px) {
+  .carousel-title {
+    font-size: 3em; /* Regola la dimensione del font */
+  }
+
+  .carousel-p{
+    font-size: 1.5em;
+  }
+  
+}
+
+
+
+@media screen and (min-width:1024px) {
+  .carousel-title {
+    font-size: 5em; /* Regola la dimensione del font */
+  }
+
+  .carousel-p{
+    font-size: 2.5em;
+  }
+  
+}

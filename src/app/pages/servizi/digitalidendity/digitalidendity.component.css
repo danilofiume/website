@@ -1,0 +1,97 @@
+.box-cop {
+  background-image: url("/assets/sfondobranding.jpg");
+}
+
+.containergrid {
+  display: grid;
+  grid-template-areas:
+    "biglietti tshirt"
+    "diario tshirt"
+    "tazze brochure";
+  
+}
+
+.biglietti {
+  grid-area: biglietti;
+}
+
+.tshirt {
+  grid-area: tshirt;
+}
+
+.diario {
+  grid-area: diario;
+  align-self: end;
+}
+
+.tazze {
+  grid-area: tazze;
+}
+
+
+.brochure {
+  grid-area: brochure;
+}
+
+
+
+@media screen and (max-width:767px) {
+  .containergrid {
+    display: grid;
+    grid-template-areas:
+      "biglietti biglietti"
+      "tshirt tshirt"
+      "tazze tazze"
+      "diario diario"
+      "brochure brochure";
+    
+  }
+
+}
+
+
+
+
+.carousel-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden; /* Nasconde la scrollbar esterna */
+}
+
+.carousel {
+  display: flex;
+  flex-wrap: nowrap; /* Mantiene le slide in una sola riga */
+  overflow: hidden; /* Nasconde la scrollbar interna */
+  cursor: grab; /* Mostra il cursore di trascinamento */
+}
+
+
+
+.slide {
+  flex: 0 0 auto; /* Mantiene la larghezza delle slide */
+
+  margin: 0 1em 0 0; /* Spazio tra le slide */
+  box-sizing: border-box; /* Include il padding e il bordo nella larghezza totale */
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+  transition: transform 1.5s ease; /* Aggiunge transizione per lo zoom */
+  transform-origin: center center; /* Imposta l'origine dello zoom al centro dell'immagine */
+  user-select: none; /* Impedisce la selezione del testo */
+  pointer-events: none; /* Impedisce tutti gli eventi del mouse sulle immagini */
+}
+
+
+@media screen and (min-width: 768px) {
+  .slide {
+    width: 20%; /* Adatta la larghezza per schermi più grandi */
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .slide {
+    width: 75%; /* Adatta la larghezza per schermi piccoli */
+  }
+}

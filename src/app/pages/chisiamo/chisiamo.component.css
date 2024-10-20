@@ -1,0 +1,126 @@
+.box-cop {
+    
+    background: rgb(0, 0, 0);
+    
+    
+  
+  }
+
+  @media screen and (max-width:767px) {
+    
+    .box-cop{
+      align-items: start;
+    text-align: start;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .box-cop div h1 {
+      font-size: calc(4.5em + 1vw);
+      height: 100%;
+    }
+  
+    .box-cop div p {
+      font-size: calc(1em + 0.5vw);
+      width: 70%; 
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .box-cop div h1 {
+      font-size: calc(2em + 1vw);
+      height: 100%;
+    }
+  
+    .box-cop div p {
+      font-size: calc(1em + 0.5vw);
+      width: 100%; 
+    }
+  }
+  
+  
+
+  @media (min-width: 1024px) {
+    
+  
+    .box-cop div .row {
+      
+      flex-direction: column;
+    }
+    .box-cop div h1 {
+      font-size: calc(3.5em + 1vw);
+    }
+  }
+
+
+  
+
+.card {
+  --flow-space: 0.5em;
+  --hsl: var(--hue), var(--saturation), var(--lightness);
+  flex: 1 1 14rem;
+  padding: 1.5em 2em;
+  display: grid;
+  grid-template-rows: auto auto auto 1fr;
+  align-items: start;
+  gap: 1.25em;
+  color: #eceff1;
+  background-color: #000000;
+  border: 1px solid rgb(142, 142, 142);
+  border-radius: 15px;
+  height: 100%;
+  cursor: pointer;
+}
+
+.card:nth-child(1) {
+  --hue: 165;
+  --saturation: 82.26%;
+  --lightness: 51.37%;
+}
+
+.card__bullets {
+  line-height: 1.4;
+}
+
+.card__heading {
+  font-size: 1.05em;
+  font-weight: 600;
+}
+
+.card__price {
+  font-size: 1.75em;
+  font-weight: 700;
+}
+
+.flow > * + * {
+  margin-top: var(--flow-space, 1.25em);
+}
+
+.cta {
+  display: block;
+  align-self: end;
+  margin: 1em 0 0.5em 0;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: transparent;
+  outline: 1px solid white;
+  padding: 0.7em;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.card:hover {
+  --lightness: 80%;
+  background: linear-gradient(45deg,  #f0f,yellow,#0ff);
+    color: #000;
+  outline: 1px solid rgb(255, 255, 255);
+ 
+  transition: all ease-in-out 0.3s;
+}
+
+.card:hover > .cta {
+  outline: none;
+  background-color: #0d0d0d;
+}

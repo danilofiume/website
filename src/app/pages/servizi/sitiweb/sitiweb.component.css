@@ -1,0 +1,48 @@
+.carousel-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden; /* Nasconde la scrollbar esterna */
+  }
+  
+  .carousel {
+    display: flex;
+    flex-wrap: nowrap; /* Mantiene le slide in una sola riga */
+    overflow: hidden; /* Nasconde la scrollbar interna */
+    cursor: grab; /* Mostra il cursore di trascinamento */
+  }
+ 
+  
+  
+  .slide {
+    flex: 0 0 auto; /* Mantiene la larghezza delle slide */
+  
+    margin: 0 1em 0 0; /* Spazio tra le slide */
+    box-sizing: border-box; /* Include il padding e il bordo nella larghezza totale */
+  }
+  
+  .slide  {
+    width: 100%;
+    height: auto;
+    transition: transform 1s ease; /* Aggiunge transizione per lo zoom */
+    transform-origin: center center; /* Imposta l'origine dello zoom al centro dell'immagine */
+    
+  }
+
+
+  
+  
+  @media screen and (min-width: 768px) {
+    .slide {
+      width: 40%; /* Adatta la larghezza per schermi più grandi */
+    }
+    .slide:hover{
+        transform: scale(1.03);
+      }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .slide {
+      width: 75%; /* Adatta la larghezza per schermi piccoli */
+    }
+  }
+  
